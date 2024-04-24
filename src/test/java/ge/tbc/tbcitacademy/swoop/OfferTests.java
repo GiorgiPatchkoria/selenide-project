@@ -95,6 +95,7 @@ public class OfferTests extends BaseTest {
     }
 
     @Test(priority = 4, description = "Validate diagram of offers which are not sold out")
+    @Severity(SeverityLevel.BLOCKER)
     @Feature("No Offers Sold")
     @Story("As a user, I want to see offers with no vouchers sold to have empty diagram")
     @Description("Verify that diagram of all offers, which are not sold out, is empty ")

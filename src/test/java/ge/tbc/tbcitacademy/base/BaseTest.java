@@ -18,6 +18,7 @@ public class BaseTest {
         Configuration.browser = "chrome";
         WebDriverManager.chromedriver().setup();
         Configuration.browserSize = "1920x1080";
+        Configuration.timeout = 7000;
         SelenideLogger.addListener("AllureSelenide", new ScreenshotSaver());
         ChromeOptions options = new ChromeOptions();
         Map<String, Object> prefs = new HashMap<>();
