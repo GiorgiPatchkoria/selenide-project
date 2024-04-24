@@ -16,6 +16,7 @@ public class BaseSteps {
         return this;
     }
 
+    @Step("Click on კატეგორიები menu")
     public BaseSteps clickOnKategoriebi(){
         basePage.kategoriebiDropDown.click();
         return this;
