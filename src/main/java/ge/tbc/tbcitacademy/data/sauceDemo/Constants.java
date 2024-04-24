@@ -7,5 +7,5 @@ public class Constants {
     public static final String lockedOutUser = "locked_out_user";
     public static final String problemUser = "problem_user";
     public static final String invalidImage = ".*sl-404.168b1cce.jpg";
-    public static final String uselessString = "change from project_dev";
+    public static final String uselessString = "change from project_devHotfix";
 }
