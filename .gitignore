@@ -1,3 +1,7 @@
+/.idea
+/target
+*.iml
+build
 target/
 pom.xml.tag
 pom.xml.releaseBackup
